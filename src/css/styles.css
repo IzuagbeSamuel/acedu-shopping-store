@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--bg-black-50);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: rgb(199, 57, 57);
+  --secondary-color: yellow;
+  --tertiary-color: blue;
+  --bg-black-50: #eff0f4;
+  --bg-black-100: #dddddd;
+  --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+}
+
+.cart {
+  background-color: var(--primary-color);
+  color: white;
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Heading Section Starts */
+.heading-section {
+  box-shadow: var(--outer-shadow);
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.heading-section .heading{
+  display: flex;
+  align-items: center;
+}
+
+.heading-section .heading img {
+  width: 40px;
+  margin: 20px;
+}
+
+.heading-section .heading h1 {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.heading-section .search-bar {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.heading-section .search-bar input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 12px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+.heading-section .nav-bar {
+  display: flex;
+}
+
+.heading-section .nav-bar ul {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+
+.heading-section .nav-bar ul a{
+  color: black;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.heading-section .nav-bar ul a:hover {
+  color: var(--primary-color);
+}
+/* Heading Section Ends */
+
+/* Left-tab Section Starts */
+.left-tab-section {
+  
+}
+/* Left-tab Section Ends */
