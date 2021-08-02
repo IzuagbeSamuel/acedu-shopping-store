@@ -46,12 +46,12 @@ module.exports = {
         loader: 'eslint-loader',
       },
       {
-        test: /\.(gif|png|jpeg?g)$/,
+        test: /\.(mp4|gif|png|svn|jpg|jpeg?g)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: '[name].[hash].[ext]',
               outputPath: 'assets/images/',
             },
           },

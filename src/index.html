@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a15138ce98.js" crossorigin="anonymous"></script>
-    <title>ADROITSOFT SHOPPING MALL</title>
+    <title>Adroitsoft Shopping Store</title>
   </head>
   <body>
     <!-- Heading Section Starts-->
     <section class="heading-section">
       <div class="heading">
         <img src="./../assets/images/Logo.png" alt="" />
-        <h1>ADROITSOFT SHOPPING MALL</h1>
+        <h1>ADROITSOFT STORE</h1>
       </div>
       <div class="search-bar">
-        <input type="search" name="search" id="search" placeholder="Search for product name">
+        <input type="search" name="search" id="search" placeholder="Search for product name" />
         <button type="submit" class="btn">SEARCH</button>
       </div>
       <nav class="nav-bar">
@@ -23,27 +23,111 @@
           <li><a href="#">Home</a></li>
           <li><a href="#">Buy</a></li>
           <li><a href="#">Help</a></li>
-          <li><a href="#" class="fas fa-shopping-cart"><span id="cart"></span></a></li>
+          <li>
+            <a href="#" class="fas fa-shopping-cart"><span id="cart"></span></a>
+          </li>
         </ul>
       </nav>
     </section>
     <!-- Heading Section Ends-->
 
     <!-- Left-Tab Section Starts -->
-    <section class="left-tab-section">
+    <section class="left-tab-section grid-container">
       <div class="left-tab">
-        <ul>
-          <li><a href="" class="fas fa-apple-alt">Supermarket</a></li>
-          <li><a href="" class="fas fa-home">Home & Office</a></li>
-          <li><a href="" class="fas fa-phone">Phones & Tablets</a></li>
-          <li><a href="" class="fas fa-tv">Computing</a></li>
-          <li><a href="" class="fas fa-broadcast-tower">Electronics</a></li>
-          <li><a href="" class="fas fa-gamepad">Gaming</a></li>
-          <li><a href="" class="fas fa-car">AutoMobile</a></li>
-        </ul>
+          <div class="grid-item">
+            <ul>
+              <li>
+                <a href="#"> <i class="fas fa-apple-alt"></i> Supermarket</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-home"></i> Home & Office</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-phone"></i> Phones & Tablets</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-tv"></i> Computing</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-broadcast-tower"></i> Electronics</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-gamepad"></i> Gaming</a>
+              </li>
+              <li>
+                <a href="#"> <i class="fas fa-car"></i> AutoMobile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="img">
+            <img src="./../assets/images/discount.png" alt="" />
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="img">
+           <img src="./../assets/images/second-discont.png" alt="">
+          </div>
+        </div>
       </div>
     </section>
     <!-- Left-Tab Section Ends -->
+
+    <!-- Top Product Tab Starts -->
+    <section class="top-product-section">
+      <div class="top-product">
+        <h2>Top Products:</h2>
+        <h3 class="callout-message" id="callout-message">Your order has been placed, click the cart icon to continue purchase!</h3>
+      </div>
+      <div class="product-gallery grid-container-2">
+        <div class="grid-item-2">
+          <div class="img">
+            <img src="./../assets/images/1.jpg" alt="">
+            <h4>XIAOMI Redmi 9A</h4>
+            <div class="pricing">
+              <h4 class="old-price">$300</h4>
+              <h4>$250</h4><br>
+            </div>
+            <button class="btn buy1">Buy</button>
+          </div>
+      </div>
+       <div class="grid-item-2">
+         <div class="img">
+           <img src="./../assets/images/2.jpg" alt="">
+           <h4>Aihontai 10000mAh</h4>
+           <div class="pricing">
+             <h4 class="old-price">$20</h4>
+             <h4>$15</h4>
+           </div>
+           <button class="btn buy2">Buy</button>
+         </div>
+       </div>
+       <div class="grid-item-2">
+         <div class="img">
+           <img src="./../assets/images/3.jpg" alt="">
+           <h4>New 15 Smart Watch</h4>
+           <div class="pricing">
+             <h4 class="old-price">$30</h4>
+             <h4>$20</h4>
+           </div>
+           <button class="btn buy3">Buy</button>
+         </div>
+       </div>
+       <div class="grid-item-2">
+         <div class="img">
+           <img src="./../assets/images/4.jpg" alt="">
+           <h4>Infinix Hot 10</h4>
+           <div class="pricing">
+             <h4 class="old-price">$150</h4>
+             <h4>$100</h4>
+           </div>
+           <button class="btn buy4">Buy</button>
+         </div>
+       </div>
+      </div>
+    </section>
+    <!-- Top Product Tab Ends -->
     <script src="./index.js"></script>
   </body>
 </html>
